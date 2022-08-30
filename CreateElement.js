@@ -6,7 +6,7 @@ export function createElement(shapeText,id){
 
     let Pstyles ={
         "color":"blue",
-        "font-size":"3rem"
+        "font-size":"1rem"
     }
     shapePelement.appendChild(shapeTextNode);
 
