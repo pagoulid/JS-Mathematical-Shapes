@@ -15,15 +15,10 @@ import {createElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/C
 
     }
 
-
-
-
     let side_of_square = SQ_SIDE;
     let diagonal_of_square = calcDiag_of_square(side_of_square);
-
-
     let resultText = `Diagonal of square with side length ${side_of_square} is ${diagonal_of_square}`;
-    console.log(window.location.href);
+   
     createElement(resultText,SHAPE);
 
 
