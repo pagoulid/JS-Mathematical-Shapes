@@ -23,7 +23,7 @@ import {squareElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/C
 
     console.log(`Diagonal of square with side length ${side_of_square} is ${diagonal_of_square}`);
     let resultText = `Diagonal of square with side length ${side_of_square} is ${diagonal_of_square}`;
-    console.log(resultText);
+    console.log(window.location.href);
     squareElement(resultText,SHAPE);
 
 
@@ -31,13 +31,4 @@ import {squareElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/C
 
 
 
-    /*Visualize script results on HTML document*/ 
-/*function squareElement(squareText){
-    let squareItem = document.getElementById('square');
-    let squarePelement = document.createElement('p');
-    let squareTextNode = document.createTextNode(squareText);
-
-    squarePelement.appendChild(squareTextNode);
-    squareItem.appendChild(squarePelement);
-
-}*/
+    

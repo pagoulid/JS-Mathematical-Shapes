@@ -1,10 +1,11 @@
-export function squareElement(squareText,id){
-    let squareItem = document.getElementById(id);
-    let squarePelement = document.createElement('p');
-    let squareTextNode = document.createTextNode(squareText);
+/*Visualize script results on HTML document*/ 
+export function createElement(Text,id){
+    let shapeItem = document.getElementById(id);
+    let shapePelement = document.createElement('p');
+    let shapeTextNode = document.createTextNode(shapeText);
 
-    squarePelement.appendChild(squareTextNode);
-    squareItem.appendChild(squarePelement);
+    shapePelement.appendChild(shapeTextNode);
+    shapeItem.appendChild(shapePelement);
     
 
 }
