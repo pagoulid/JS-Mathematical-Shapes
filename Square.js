@@ -2,7 +2,7 @@
 /*square_of_ : refers to the mathematical operation x^2 , where x is number*/
 
 
-import {squareElement} from 'https://github.com/pagoulid/JS-Mathematical-Shapes/blob/main/CreateElement.js';
+import {squareElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/CreateElement.js';
 
     const SQ_SIDE = 9;
     const SHAPE = 'square';

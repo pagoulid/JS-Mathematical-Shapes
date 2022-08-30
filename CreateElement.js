@@ -5,6 +5,6 @@ export function squareElement(squareText,id){
 
     squarePelement.appendChild(squareTextNode);
     squareItem.appendChild(squarePelement);
-    return callback('Done');
+    
 
 }
