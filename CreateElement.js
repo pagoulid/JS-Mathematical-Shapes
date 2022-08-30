@@ -1,5 +1,5 @@
 /*Visualize script results on HTML document*/ 
-export function createElement(Text,id){
+export function createElement(shapeText,id){
     let shapeItem = document.getElementById(id);
     let shapePelement = document.createElement('p');
     let shapeTextNode = document.createTextNode(shapeText);
