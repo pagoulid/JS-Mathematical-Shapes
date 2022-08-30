@@ -7,7 +7,9 @@ import {createElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/C
 
     let calcArea = (sides) =>{
         const sumSides = sides.reduce((prevVal,currVal)=>prevVal+currVal,0);
-        console.log(sumSides);
+        let s = sumSides*0.5;
+        const middleCalc = sides.reduce((prevVal,currVal)=>(s-prevVal)*(s-currVal),0);
+        console.log(middleCalc)
     }
 
     calcArea(triangleSides);
