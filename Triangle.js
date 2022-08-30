@@ -6,7 +6,7 @@ import {createElement} from 'https://pagoulid.github.io/JS-Mathematical-Shapes/C
 
 
     let calcArea = (sides) =>{
-        let sumSides = sides.reduce((prevVal,currVal)=>{prevVal+currVal,0});
+        const sumSides = sides.reduce((prevVal,currVal)=>prevVal+currVal,0);
         console.log(sumSides);
     }
 
